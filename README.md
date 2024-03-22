@@ -1,14 +1,18 @@
 # OpenAI---Assistant-API-Demo
  Repo for showcasing the  code for building an AI Sales Assistant using OpenAI Assistant's Retrieval, Function Calling, and Code Interpreter functionalities.
 
-Introduction
+**Introduction**
+
 This README provides detailed instructions for setting up and running the Python project that interfaces with the OpenAI API. The setup process includes installing Python, managing project dependencies, configuring environment variables, and obtaining an OpenAI API key.
 
-Prerequisites
+**Prerequisites**
+
 Installing Python
+
 Before proceeding, ensure that Python is installed on your system. We recommend using Homebrew on macOS and Chocolatey on Windows for a smooth installation experience.
 
 macOS (using Homebrew):
+
 Install Homebrew by running the following command in your terminal:
 
 ```sh
@@ -22,6 +26,7 @@ Copy code
 brew install python
 ```
 Windows (using Chocolatey):
+
 Install Chocolatey by following the instructions on the [Chocolatey Installation page](https://chocolatey.org/install).
 Once Chocolatey is installed, install Python by running the following command in your terminal (run as Administrator):
 
@@ -29,11 +34,14 @@ Once Chocolatey is installed, install Python by running the following command in
 Copy code
 choco install python
 ```
-Dependency Management
+**Dependency Management**
+
 This project uses a requirements.txt file to manage dependencies. Ensure you have Python and pip installed before proceeding.
 
-Setup Instructions
+**Setup Instructions**
+
 1. Clone the Repository
+   
 First, clone the project repository to your local machine using git:
 
 ```sh
@@ -42,6 +50,7 @@ git clone [repository URL]
 cd [project directory]
 ```
 2. Install Dependencies
+   
 Navigate to the project directory and install the required Python packages using the following command:
 
 ```sh
@@ -49,6 +58,7 @@ Copy code
 pip install -r requirements.txt
 ```
 3. Configure Environment Variables
+   
 Create a .env file in the project root directory. This file will store your OpenAI API key and any other sensitive information.
 
 ```sh
@@ -63,9 +73,11 @@ env
 OPENAI_API_KEY=YOUR_API_KEY
 ```
 4. Obtaining an OpenAI API Key
+   
 To use the OpenAI API, you need an API key. If you do not have one, visit the [OpenAI API key page]((https://platform.openai.com/api-keys).to sign up for an account and obtain your API key.
 
-5. Running the Project
+6. Running the Project
+   
 With the setup complete, you can now run the project using the following command:
 
 ```sh
