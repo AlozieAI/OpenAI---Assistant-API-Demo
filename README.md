@@ -22,7 +22,6 @@ Copy code
 Once Homebrew is installed, install Python by running:
 
 ```sh
-Copy code
 brew install python
 ```
 Windows (using Chocolatey):
@@ -31,7 +30,6 @@ Install Chocolatey by following the instructions on the [Chocolatey Installation
 Once Chocolatey is installed, install Python by running the following command in your terminal (run as Administrator):
 
 ```powershell
-Copy code
 choco install python
 ```
 **Dependency Management**
@@ -45,7 +43,6 @@ This project uses a requirements.txt file to manage dependencies. Ensure you hav
 First, clone the project repository to your local machine using git:
 
 ```sh
-Copy code
 git clone [repository URL]
 cd [project directory]
 ```
@@ -54,7 +51,6 @@ cd [project directory]
 Navigate to the project directory and install the required Python packages using the following command:
 
 ```sh
-Copy code
 pip install -r requirements.txt
 ```
 3. Configure Environment Variables
@@ -62,21 +58,20 @@ pip install -r requirements.txt
 Create a .env file in the project root directory. This file will store your OpenAI API key and any other sensitive information.
 
 ```sh
-Copy code
 touch .env  # On macOS and Linux
 type nul > .env  # On Windows in cmd or use New-Item .env -ItemType file in PowerShell
 ```
 Add the following line to your .env file, replacing YOUR_API_KEY with your actual OpenAI API key:
 
-env
-```Copy code
+**env**
+```
 OPENAI_API_KEY=YOUR_API_KEY
 ```
 4. Obtaining an OpenAI API Key
    
 To use the OpenAI API, you need an API key. If you do not have one, visit the [OpenAI API key page]((https://platform.openai.com/api-keys).to sign up for an account and obtain your API key.
 
-6. Running the Project
+5. Running the Project
    
 With the setup complete, you can now run the project using the following command:
 
