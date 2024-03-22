@@ -16,7 +16,6 @@ macOS (using Homebrew):
 Install Homebrew by running the following command in your terminal:
 
 ```sh
-Copy code
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 Once Homebrew is installed, install Python by running:
@@ -76,11 +75,10 @@ To use the OpenAI API, you need an API key. If you do not have one, visit the [O
 With the setup complete, you can now run the project using the following command:
 
 ```sh
-Copy code
 python main.py
 ```
 Replace main.py with the name of your main Python script if different.
 
 Additional Information
-For more detailed information on the OpenAI API and its capabilities or other documention on how to setup OpenAI API in a python env, refer to the OpenAI API documentation and [Open API setup doc](https://platform.openai.com/docs/quickstart?context=python) 
+For more detailed information on the OpenAI API and its capabilities or other documention on how to setup OpenAI API in a python env, refer to the [OpenAI API documentation](https://platform.openai.com/docs/overview) and [Open API setup doc](https://platform.openai.com/docs/quickstart?context=python) 
 
