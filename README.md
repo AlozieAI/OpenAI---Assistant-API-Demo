@@ -62,7 +62,6 @@ type nul > .env  # On Windows in cmd or use New-Item .env -ItemType file in Powe
 ```
 Add the following line to your .env file, replacing YOUR_API_KEY with your actual OpenAI API key:
 
-**env**
 ```
 OPENAI_API_KEY=YOUR_API_KEY
 ```
