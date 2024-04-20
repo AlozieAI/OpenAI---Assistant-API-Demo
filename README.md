@@ -64,6 +64,7 @@ git clone [repository URL]
 cd [project directory]
 ```
 Guide in how to install git if needed - [Guide](https://github.com/git-guides/install-git)
+
 2. Install Dependencies
 
    
