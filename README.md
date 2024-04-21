@@ -11,6 +11,12 @@ This README provides detailed instructions for setting up and running the Python
 
 Note -  At least for windows might have to run as adminster when installing all of this to be able to run the commands/software packages  [How to run as admin] ( https://learn.microsoft.com/en-us/windows/terminal/faq)
 
+VScode setup 
+
+
+ [Guide](https://medium.com/nerd-for-tech/install-visual-studio-code-fe3908c5cf15)
+
+
 
 Installing Python
 
