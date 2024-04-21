@@ -1,3 +1,4 @@
-openai
+openai==1.20.0
 requests
 pandas
+python-dotenv
