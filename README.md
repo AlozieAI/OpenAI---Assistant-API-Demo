@@ -9,6 +9,8 @@ This README provides detailed instructions for setting up and running the Python
 
 **Prerequisites**
 
+Note -  At least for windows might have to run as adminster when installing all of this to be able to run the commands/software packages  [How to run as admin] ( https://learn.microsoft.com/en-us/windows/terminal/faq)
+
 
 Installing Python
 
@@ -43,6 +45,11 @@ Once Chocolatey is installed, install Python by running the following command in
 ```powershell
 choco install python
 ```
+
+Note - For Windows it might have default aliases for Python that redirect the python command to the Microsoft Store which could cause the python command not to work. Disable these aliases as it might have default aliases for Python that redirect the python command to the Microsoft Store. Disable these.
+
+Steps to disable app aliases
+ Go to Settings > Apps > Advanced App settings.  Click on App execution aliases. [Here's is video also](https://www.google.com/search?q=windows+disable+app+aliases&oq=windows+disable+app+alis&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKABMgkIBBAhGAoYoAEyCQgFECEYChigATIHCAYQIRifBTIHCAcQIRifBdIBCjEwMDI5ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#kpvalbx=_0HkkZvS3KOvJp84P-fmw-AE_45)
 
 **Dependency Management**
 
@@ -114,4 +121,10 @@ Replace main.py with the name of your main Python script if different.
 
 Additional Information
 For more detailed information on the OpenAI API and its capabilities or other documention on how to setup OpenAI API in a python env, refer to the [OpenAI API documentation](https://platform.openai.com/docs/overview) and [Open API setup doc](https://platform.openai.com/docs/quickstart?context=python) 
+
+IMPORTANT!
+
+Open AI Assistant API V2
+
+OpenAI just added a V2 version of the Opena Assitant API V2. This includes some breaking changes so if you want the current code to still work confirm that you are using the older version of openai lib(1.20.0)(you check your version using openai --version)(run pip install openai==1.20.0) or make the proper code changes need for the code to work with Open AI Assitant API V2. [Here is the documention for differences between V1 and V2](https://platform.openai.com/docs/assistants/migration/changing-beta-versions)
 
