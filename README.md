@@ -109,7 +109,7 @@ OPENAI_API_KEY=YOUR_API_KEY
 4. Obtaining an OpenAI API Key
 
    
-To use the OpenAI API, you need an API key. If you do not have one, visit the [OpenAI API key page](https://platform.openai.com/api-keys).to sign up for an account and obtain your API key.
+To use the OpenAI API, you need an API key. If you do not have one, visit the [OpenAI API key page](https://platform.openai.com/api-keys) to sign up for an account and obtain your API key.
 
 
 5. Running the Project
