@@ -124,7 +124,8 @@ python main.py
 
 Replace main.py with the name of your main Python script if different.
 
-Voiceflow and Microsoft Teams Intergation 
+**Voiceflow and Microsoft Teams Intergation**
+
 
 Can checkout the repo or the intergations below
 
@@ -135,11 +136,11 @@ Can checkout the repo or the intergations below
 [Voiceflow---Multi-Assistant-Functionality-Template](https://github.com/AlozieAI/Voiceflow---Multi-Assistant-Functionality-Template)
 
 
-Additional Information
+**Additional Information**
 
 For more detailed information on the OpenAI API and its capabilities or other documention on how to setup OpenAI API in a python env, refer to the [OpenAI API documentation](https://platform.openai.com/docs/overview) and [Open API setup doc](https://platform.openai.com/docs/quickstart?context=python) 
 
-IMPORTANT!
+**IMPORTANT!**
 
 Open AI Assistant API V2
 
