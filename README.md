@@ -136,6 +136,7 @@ Can checkout the repo or the intergations below
 
 
 Additional Information
+
 For more detailed information on the OpenAI API and its capabilities or other documention on how to setup OpenAI API in a python env, refer to the [OpenAI API documentation](https://platform.openai.com/docs/overview) and [Open API setup doc](https://platform.openai.com/docs/quickstart?context=python) 
 
 IMPORTANT!
