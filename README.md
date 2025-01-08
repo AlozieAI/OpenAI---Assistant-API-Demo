@@ -129,7 +129,9 @@ Voiceflow and Microsoft Teams Intergation
 Can checkout the repo or the intergations below
 
 [Microsoft Teams](https://github.com/AlozieAI/Microsoft-and-Voiceflow-Integration.git)
+
 [Voiceflow-AssisstantAPI-Template](https://github.com/AlozieAI/Voiceflow-AssisstantAPI-Template)
+
 [Voiceflow---Multi-Assistant-Functionality-Template](https://github.com/AlozieAI/Voiceflow---Multi-Assistant-Functionality-Template)
 
 
